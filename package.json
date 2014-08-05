@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/azu/hatebu-mydata-paraser.git"
   },
-  "main": "index.js",
+  "main": "lib/hatebu-mydata-paraser.js",
   "scripts": {
     "test": "mocha test/*.js"
   },

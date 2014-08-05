@@ -1,1 +1,0 @@
-module.exports = require("../hatebu-mydata-paraser");
