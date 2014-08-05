@@ -1,7 +1,7 @@
 {
   "name": "hatebu-mydata-paraser",
   "description": "Parser for Hatena Bookmarks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/azu/hatebu-mydata-paraser/",
   "repository": {
     "type": "git",
