@@ -1,4 +1,4 @@
-# hatebu-mydata-paraser
+# hatebu-mydata-paraser [![Build Status](https://travis-ci.org/azu/hatebu-mydata-paraser.svg)](https://travis-ci.org/azu/hatebu-mydata-paraser)
 
 はてなブックマークのsearch.dataのパーサライブラリ
 
