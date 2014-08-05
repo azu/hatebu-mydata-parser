@@ -1,0 +1,30 @@
+{
+  "name": "hatebu-mydata-paraser",
+  "description": "Parser for Hatena Bookmarks",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/hatebu-mydata-paraser/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/hatebu-mydata-paraser.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/hatebu-mydata-paraser/issues"
+  },
+  "dependencies": {
+    "event-stream": "^3.1.7"
+  },
+  "devDependencies": {
+    "intelli-espower-loader": "^0.2.0",
+    "mocha": "^1.21.3",
+    "power-assert": "^0.7.2"
+  }
+}
