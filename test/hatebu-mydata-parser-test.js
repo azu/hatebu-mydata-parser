@@ -1,9 +1,9 @@
 "use strict";
-var assert = require("power-assert");
-var parse = require("../lib/hatebu-mydata-paraser").parse;
+import assert from "power-assert";
+import {parse} from "../src/hatebu-mydata-parser";
+import {readFileSync} from "fs"
+var searchData = readFileSync(__dirname + "/fixtures/search.data", "utf-8");
 describe("hatebu-mydata-paraser", function () {
-    var searchData = require("fs").readFileSync(__dirname + "/fixtures/search.data", "utf-8");
-
     context("when no data", function () {
         it("should return []", function () {
             assert.deepEqual(parse(""), []);

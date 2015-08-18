@@ -1,9 +1,5 @@
-/**
- * Created by azu on 2014/08/05.
- * LICENSE : MIT
- */
 "use strict";
-var util = require("./hatebu-mydata-utils");
+var {dateFromString, parseLineByLine} = require("./hatebu-mydata-utils");
 var _myDataFormat = {
     title: "string",
     comment: "string",
@@ -16,11 +12,11 @@ var _myDataFormat = {
  * @param {string} text
  * @returns {[_myDataFormat]}
  */
-function parse(text) {
+export function parse(text) {
     if (text == null) {
         return [];
     }
-    var myDataTuple = util.createTuple(text);
+    var myDataTuple = parseLineByLine(text);
     if (myDataTuple.bookmarks.length === 0 || myDataTuple.lines.length === 0) {
         return [];
     }
@@ -34,11 +30,7 @@ function parse(text) {
             title: title,
             comment: comment,
             url: url,
-            date: util.dateFromString(timestamp)
+            date: dateFromString(timestamp)
         }
     });
 }
-
-module.exports = {
-    parse: parse
-};
