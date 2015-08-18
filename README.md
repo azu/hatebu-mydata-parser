@@ -1,4 +1,4 @@
-# hatebu-mydata-paraser [![Build Status](https://travis-ci.org/azu/hatebu-mydata-paraser.svg)](https://travis-ci.org/azu/hatebu-mydata-paraser)
+# hatebu-mydata-parser [![Build Status](https://travis-ci.org/azu/hatebu-mydata-parser.svg)](https://travis-ci.org/azu/hatebu-mydata-parser)
 
 はてなブックマークのsearch.dataのパーサライブラリ
 
@@ -12,13 +12,13 @@ search.dataとは以下のようなブラウザ拡張で使われてるはてな
 ## Installation
 
 ```
-npm install hatebu-mydata-paraser
+npm install hatebu-mydata-parser
 ```
 
 ## Usage
 
 ```js
-var parse = require("hatebu-mydata-paraser").parse;
+var parse = require("hatebu-mydata-parser").parse;
 var data = parse(searchData); // searchDataのテキストを渡す
 /* dataには以下のようなオブジェクトの配列が入る
 {
