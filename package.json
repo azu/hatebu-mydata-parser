@@ -1,13 +1,13 @@
 {
-  "name": "hatebu-mydata-paraser",
+  "name": "hatebu-mydata-parser",
   "description": "Parser for Hatena Bookmarks",
   "version": "0.1.1",
-  "homepage": "https://github.com/azu/hatebu-mydata-paraser/",
+  "homepage": "https://github.com/azu/hatebu-mydata-parser/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/hatebu-mydata-paraser.git"
+    "url": "https://github.com/azu/hatebu-mydata-parser.git"
   },
-  "main": "lib/hatebu-mydata-paraser.js",
+  "main": "lib/hatebu-mydata-parser.js",
   "files": [
     "lib",
     "src"
@@ -24,7 +24,7 @@
   "author": "azu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azu/hatebu-mydata-paraser/issues"
+    "url": "https://github.com/azu/hatebu-mydata-parser/issues"
   },
   "dependencies": {},
   "devDependencies": {
